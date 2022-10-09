@@ -5,49 +5,53 @@ const musicdb = {
     {
       name: "Tee-Shirt",
       artist: "Birdy",
-      link: "https://www.youtube.com/watch?v=oM60hSMqIkI"
+      link: "https://www.youtube.com/watch?v=oM60hSMqIkI",
     },
     {
       name: "Photograph",
       artist: "Ed Sheeran",
-      link: "https://www.youtube.com/watch?v=nSDgHBxUbVQ"
+      link: "https://www.youtube.com/watch?v=nSDgHBxUbVQ",
     },
     {
       name: "Little Things",
       artist: "One direction",
-      link: "https://www.youtube.com/watch?v=xGPeNN9S0Fg"
-    }
+      link: "https://www.youtube.com/watch?v=xGPeNN9S0Fg",
+    },
   ],
   Bengali: [
     {
       name: "Bhindeshi Tara",
       artist: "Chandrabindu",
-      link: "https://www.youtube.com/watch?v=TjgkKuVo7Ww"
+      link: "https://www.youtube.com/watch?v=TjgkKuVo7Ww",
     },
     {
       name: "Preme Pora Baron",
       artist: "Lagnajita Chakraborty",
-      link: "https://www.youtube.com/watch?v=1DAgBjXj96k"
+      link: "https://www.youtube.com/watch?v=1DAgBjXj96k",
     },
     {
       name: "Behaya",
       artist: "Lagnajita Chakraborty",
-      link: "https://www.youtube.com/watch?v=huJGx_nfMxs"
-    }
+      link: "https://www.youtube.com/watch?v=huJGx_nfMxs",
+    },
   ],
   Hindi: [
-    { name: "Aaj Kal Zindagi", artist: "Wake up Sid" },
+    {
+      name: "Aaj Kal Zindagi",
+      artist: "Wake up Sid",
+      link: "https://www.youtube.com/watch?v=KWA0_kI5PKk",
+    },
     {
       name: "Bhage re Mann",
       artist: "Sunidhi Chauhan",
-      link: "https://www.youtube.com/watch?v=pkV4VbjIcCo"
+      link: "https://www.youtube.com/watch?v=pkV4VbjIcCo",
     },
     {
       name: "Saiyyan",
       artist: "Kailash Kher",
-      link: "https://www.youtube.com/watch?v=TuUVVKVdZm4"
-    }
-  ]
+      link: "https://www.youtube.com/watch?v=TuUVVKVdZm4",
+    },
+  ],
 };
 var music = Object.keys(musicdb);
 export default function App() {
@@ -72,7 +76,7 @@ export default function App() {
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid #0ea5e9",
-              margin: "1rem 0.3rem"
+              margin: "1rem 0.3rem",
             }}
           >
             <strong>{lang}</strong>
@@ -92,7 +96,7 @@ export default function App() {
                 width: "90%",
                 backgroundColor: "white",
                 margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
               }}
             >
               <div style={{ fontSize: "larger" }}>
